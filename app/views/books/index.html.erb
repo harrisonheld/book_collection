@@ -8,9 +8,9 @@
     <p>
       <%= link_to "Show", book %>
       <%= link_to "Update", edit_book_path(book) %>
-      <%= button_to "Delete", book, method: :delete %>
+      <%= link_to "Delete", delete_book_path(book) %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New book", new_book_path %>
+<%= link_to "Add a new book", new_book_path %>
