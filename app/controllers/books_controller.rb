@@ -1,5 +1,5 @@
 class BooksController < ApplicationController
-  before_action :set_book, only: %i[ show edit update destroy ]
+  before_action :set_book, only: %i[ show edit update delete destroy ]
 
   # GET /books or /books.json
   def index
@@ -21,7 +21,6 @@ class BooksController < ApplicationController
 
   # GET /books/1/delete
   def delete
-    @book = Book.find(params[:id])
   end
 
   # POST /books or /books.json
