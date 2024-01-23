@@ -1,0 +1,16 @@
+<h1>Home</h1>
+<p style="color: green"><%= notice %></p>
+<hr>
+
+<div id="books">
+  <% @books.each do |book| %>
+    <%= render book %>
+    <p>
+      <%= link_to "Show", book %>
+      <%= link_to "Update", edit_book_path(book) %>
+      <%= link_to "Delete", delete_book_path(book) %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Add a new book", new_book_path %>
