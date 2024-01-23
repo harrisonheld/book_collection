@@ -1,0 +1,41 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2024-01-21 21:41:57.556268000 Z
+    - 2024-01-21 21:41:57.556268000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - author
+  - price
+  - published_date
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 'CSCE431: This Being the Foremost Account of How Harrison Got an A in CSCE431
+      and Graduated (On Time, Hopefully)'
+    - Harrison Held et al.
+    - !ruby/object:BigDecimal 18:0.15999e3
+    - '2024-01-21'
+    - 2024-01-21 21:44:34.575553000 Z
+    - 2024-01-21 21:44:34.575553000 Z
+  - - 2
+    - 'Frivolous Lives: The Habits of Computer Science Students - in Addition, their
+      Musings and Reflections'
+    - Comp Uterscience
+    - !ruby/object:BigDecimal 18:0.1e2
+    - '2024-01-01'
+    - 2024-01-21 21:44:45.508389000 Z
+    - 2024-01-21 21:44:51.935297000 Z
