@@ -28,7 +28,7 @@
 
   <div>
     <%= form.label :published_date, style: "display: block" %>
-    <%= form.date_field :published_date %>
+    <%= form.date_field :published_date, min: 0.days.ago %>
   </div>
 
   <div>
