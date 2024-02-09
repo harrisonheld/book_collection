@@ -1,12 +1,12 @@
 <div id="<%= dom_id user_book %>">
-  <p>
-    <strong>User:</strong>
-    <%= user_book.user_id %>
-  </p>
+<p>
+<h3>User:</h3>
+<%= render partial: 'users/user', locals: { user: user_book.user } %>
+</p>
 
-  <p>
-    <strong>Book:</strong>
-    <%= user_book.book_id %>
-  </p>
+<p>
+<h3>Book:</h3>
+<%= render partial: 'books/book', locals: { book: user_book.book } %>
+</p>
 
 </div>
