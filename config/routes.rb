@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
-  resources :books do
-    get 'delete', on: :member
-  end
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  resources :user_books
+  resources :users
+  root "user_books#index"
 
-  # Defines the root path route ("/")
-  root "books#index"
+  resources :books do
+    member do
+      get 'delete'
+    end
+  end
+  
 end
