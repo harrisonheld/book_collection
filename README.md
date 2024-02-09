@@ -1,3 +1,3 @@
 Howdy,
 
-This is my Book Collection assignment.
+This is my Book Collection assignment. It is awesome.
